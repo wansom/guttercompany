@@ -1,3 +1,4 @@
+
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
@@ -112,10 +113,44 @@ export default function Home() {
             </div>
 
           </div>
-          <div>
-            
+          <div className="flex flex-col md:flex-row items-center justify-between gap-10 py-12 ">
+            <img src="about.webp" className="rounded-lg"/>
+            <div>
+            <h1 className="text-3xl font-bold mb-3">Get absolute protection against threats. Designed for your iOS devices</h1>
+            <p className="text-black text-md">
+            Bitdefender Mobile Security’s Web Protection filters traffic from all apps and blocks everything that poses a threat to your data. It also adds an encryption layer to prevent your data from being mishandled.<br/> <br/>
+
+The included Bitdefender VPN offers an extra layer of privacy that secures all your traffic on public networks to so attackers can’t intercept it. <br/>
+<br/>Safely fill in online forms, use apps and browse online without the unsettling feeling that your data can fall into the wrong hands if you’re not paying enough attention.Use your phone worry-free.
+            </p>
+            </div>
+
           </div>
 
+        </section>
+        <section className="container mx-auto py-12 px-5 lg:px-20 bg-[#e4f2ff] ">
+
+          
+          <div className="flex flex-col md:flex-row gap-5 lg:gap-10 justify-between my-10">
+       <div className="">
+       <h2 className="text-4xl font-bold text-black mb-5 ">Bitdefender Central <br/>
+          Security everywhere you go</h2>
+          <p className="text-black mb-8">All you need to know about Bitdefender Central</p>
+          <ul className="text-md list-disc list-inside space-y-3 my-5 marker:text-red-600 marker:text-2xl">
+            <li>Activate Bitdefender protection on your devices</li>
+            <li>Activate Bitdefender protection on your devices</li>
+            <li>Activate Bitdefender protection on your devices</li>
+            <li>Activate Bitdefender protection on your devices</li>
+            <li>Activate Bitdefender protection on your devices</li>
+          </ul>
+       </div>
+          <div className="md:basis-1/2">
+          <img src="/defender.jpg" className="rounded-lg"/>
+          </div>
+         
+
+          </div>
+        
         </section>
       </main>
     </div>
