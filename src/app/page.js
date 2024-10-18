@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
-      <main className="">
-        <div className="hero bg-cover bg-center min-h-screen py-12 px-5 lg:px-20">
+      <main className="hero bg-cover bg-center min-h-screen">
+        <section className="container mx-auto py-12 px-5 lg:px-20">
           <div className="lg:max-w-[50%]">
           <p className="font-bold text-xl text-primary mb-5">Trusted. Always.</p>
           <h2 className="text-black font-bold text-4xl mb-3">Bitdefender Mobile Security for iOS</h2>
@@ -22,7 +22,101 @@ export default function Home() {
           </div>
          
 
-        </div>
+        </section>
+        <section className="container mx-auto py-12 px-5 lg:px-20 bg-[#e4f2ff]">
+          <h1 className="text-bold text-5xl text-center">Time to debunk the “no virus” myth.
+          iOS devices need protection as well.</h1>
+          <p className="text-md text-black text-center mt-4">Since they are connected to the internet and carry all of your personal information, iPhones and iPads need protection, just like computers.</p>
+          <div className="mx-auto bg-white rounded-lg my-10 w-[410px] z-10">
+            <div className="bg-[#2cb43d] py-4 text-white text-md text-center rounded-lg">
+              Save 40%
+            </div>
+            <div className="p-5 space-y-4">
+            <p className="text-black font-bold text-md text-center">Bitdefender Mobile Security
+            1 account / billed annually</p>
+            <hr className="h-0.5 mt-5 w-full bg-gray-100"/> 
+            <h1 className="text-6xl font-bold text-center">$14.99</h1>
+            <p className="font-bold text-xs text-center">*For the first year</p>
+            <button className="bg-[#eb0000] text-white px-8 py-3 rounded-lg flex items-center gap-2 my-2 mx-auto">Get Protection <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+</button>
+            </div>
+          
+
+          </div>
+          <img src="/apple.webp" className="mx-auto"/>
+
+        </section>
+        <section className="container mx-auto py-12 px-5 lg:px-20 bg-white">
+          <h1 className="text-3xl font-bold">What risks apply to iOS devices?</h1>
+          <p className="text-md my-3">Your phone has become your camera, your wallet, your assistant. It stores sensitive information that can be used to harm you.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10 lg:gap-16">
+            <div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+</svg>
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div>
+            <div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.181 8.68a4.503 4.503 0 0 1 1.903 6.405m-9.768-2.782L3.56 14.06a4.5 4.5 0 0 0 6.364 6.365l3.129-3.129m5.614-5.615 1.757-1.757a4.5 4.5 0 0 0-6.364-6.365l-4.5 4.5c-.258.26-.479.541-.661.84m1.903 6.405a4.495 4.495 0 0 1-1.242-.88 4.483 4.483 0 0 1-1.062-1.683m6.587 2.345 5.907 5.907m-5.907-5.907L8.898 8.898M2.991 2.99 8.898 8.9" />
+</svg>
+
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div>
+            <div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z" />
+</svg>
+
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div>
+            <div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z" />
+</svg>
+
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div>
+            <div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M9.348 14.652a3.75 3.75 0 0 1 0-5.304m5.304 0a3.75 3.75 0 0 1 0 5.304m-7.425 2.121a6.75 6.75 0 0 1 0-9.546m9.546 0a6.75 6.75 0 0 1 0 9.546M5.106 18.894c-3.808-3.807-3.808-9.98 0-13.788m13.788 0c3.808 3.807 3.808 9.98 0 13.788M12 12h.008v.008H12V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+</svg>
+
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div><div className="space-y-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+</svg>
+
+
+              <p className="text-md">
+              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              </p>
+            </div>
+
+          </div>
+          <div>
+            
+          </div>
+
+        </section>
       </main>
     </div>
   );
