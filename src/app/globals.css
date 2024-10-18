@@ -24,4 +24,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-primary {
+    color: #005ed9;
+   
+  }
+}
+
+.hero {
+  background-image: url(../../public/hero.webp);
+  height: calc(100vh - 130px);
 }
