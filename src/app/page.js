@@ -2,39 +2,38 @@
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
-      <main className="hero bg-cover bg-center min-h-screen">
-        <section className="container mx-auto py-12 px-5 lg:px-20">
-          <div className="lg:max-w-[50%]">
-          <p className="font-bold text-xl text-primary mb-5">Trusted. Always.</p>
-          <h2 className="text-black font-bold text-4xl mb-3">Bitdefender Mobile Security for iOS</h2>
-          <p className="text-black font-bold text-2xl mb-3">Enjoy your iOS. We keep it safe.</p>
-          <p>Bitdefender Mobile Security for iOS is a mobile app especially designed to keep your sensitive data safe from prying eyes.</p>
-          <button className="bg-[#eb0000] text-white px-8 py-3 rounded-lg flex items-center gap-2 my-2">Get Protection <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+      <main className="hero bg-cover bg-center">
+        <section className="container mx-auto py-12 px-5 lg:px-20 flex items-center justify-center h-hero relative">
+          <div className=" absolute w-full h-full left-0 top-0 bg-black opacity-25"></div>
+          <div className="lg:max-w-[50%] z-10">
+          <p className="font-bold text-xl text-primary mb-5 z-10">Trusted. Always.</p>
+          <h2 className="text-white font-bold text-4xl mb-3 z-10">Protect Your Home with Reliable Gutter Solutions</h2>
+        
+          <p className="text-gray-200">Your Trusted Partner for Quality Gutter Installation, Repair, and Maintenance</p>
+          <button className="bg-[#eb0000] text-white px-8 py-3 rounded-lg flex items-center gap-2 my-2">Get A Quote <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
 </svg>
 </button>
-<ul className="text-md list-disc list-inside space-y-3 my-5 marker:text-red-600 marker:text-2xl">
+{/* <ul className="text-md list-disc list-inside space-y-3 my-5 marker:text-red-600 marker:text-2xl">
   <li>Get the most powerful protection against threats with the least impact on battery</li>
   <li>Get the most powerful protection against threats with the least impact on battery</li>
   <li>Get the most powerful protection against threats with the least impact on battery</li>
   <li>Get the most powerful protection against threats with the least impact on battery</li>
   <li>Get the most powerful protection against threats with the least impact on battery</li>
-</ul>
+</ul> */}
           </div>
          
 
         </section>
         <section className="container mx-auto py-12 px-5 lg:px-20 bg-[#e4f2ff]">
-          <h1 className="text-bold text-5xl text-center">Time to debunk the “no virus” myth.
-          iOS devices need protection as well.</h1>
-          <p className="text-md text-black text-center mt-4">Since they are connected to the internet and carry all of your personal information, iPhones and iPads need protection, just like computers.</p>
+          <h1 className="text-bold text-5xl text-center">We do Everything Gutters </h1>
+          <p className="text-md text-black text-center mt-4">Prevent water damage, improve curb appeal, and increase the lifespan of your home with our expert gutter services. We bring experience, quality materials, and a commitment to keeping your home safe and dry.</p>
           <div className="mx-auto bg-white rounded-lg my-10 w-[410px] z-10">
             <div className="bg-[#2cb43d] py-4 text-white text-md text-center rounded-lg">
               Save 40%
             </div>
             <div className="p-5 space-y-4">
-            <p className="text-black font-bold text-md text-center">Bitdefender Mobile Security
-            1 account / billed annually</p>
+            <p className="text-black font-bold text-md text-center">With years of experience in the gutter industry, we are a team of dedicated professionals who understand the importance of well-functioning gutters. From protecting foundations to preventing water damage, we offer custom solutions to keep your home safe</p>
             <hr className="h-0.5 mt-5 w-full bg-gray-100"/> 
             <h1 className="text-6xl font-bold text-center">$14.99</h1>
             <p className="font-bold text-xs text-center">*For the first year</p>
@@ -46,12 +45,10 @@ export default function Home() {
           
 
           </div>
-          <img src="/apple.webp" className="mx-auto"/>
-
         </section>
         <section className="container mx-auto py-12 px-5 lg:px-20 bg-white">
-          <h1 className="text-3xl font-bold">What risks apply to iOS devices?</h1>
-          <p className="text-md my-3">Your phone has become your camera, your wallet, your assistant. It stores sensitive information that can be used to harm you.</p>
+          <h1 className="text-3xl font-bold">Our Services</h1>
+          <p className="text-md my-3">Our commitment to quality, reliability, and customer satisfaction has made us a trusted name in gutter services in Canada</p>
           <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10 lg:gap-16">
             <div className="space-y-6">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
@@ -59,7 +56,7 @@ export default function Home() {
 </svg>
 
               <p className="text-md">
-              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              Need new gutters? We install high-quality, durable gutters that suit the specific needs of your home. Choose from a variety of materials and colors to match your style
               </p>
             </div>
             <div className="space-y-6">
@@ -69,7 +66,7 @@ export default function Home() {
 
 
               <p className="text-md">
-              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              Need new gutters? We install high-quality, durable gutters that suit the specific needs of your home. Choose from a variety of materials and colors to match your style
               </p>
             </div>
             <div className="space-y-6">
@@ -79,7 +76,7 @@ export default function Home() {
 
 
               <p className="text-md">
-              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              Need new gutters? We install high-quality, durable gutters that suit the specific needs of your home. Choose from a variety of materials and colors to match your style
               </p>
             </div>
             <div className="space-y-6">
@@ -89,7 +86,7 @@ export default function Home() {
 
 
               <p className="text-md">
-              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              Need new gutters? We install high-quality, durable gutters that suit the specific needs of your home. Choose from a variety of materials and colors to match your style
               </p>
             </div>
             <div className="space-y-6">
@@ -99,7 +96,7 @@ export default function Home() {
 
 
               <p className="text-md">
-              You're as exposed as any other user to accessing a phishing website that can steal your credit card info when shopping online.
+              Need new gutters? We install high-quality, durable gutters that suit the specific needs of your home. Choose from a variety of materials and colors to match your style
               </p>
             </div><div className="space-y-6">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
@@ -114,9 +111,9 @@ export default function Home() {
 
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 py-12 ">
-            <img src="about.webp" className="rounded-lg"/>
+            <img src="about.jpg" className="rounded-lg"/>
             <div>
-            <h1 className="text-3xl font-bold mb-3">Get absolute protection against threats. Designed for your iOS devices</h1>
+            <h1 className="text-3xl font-bold mb-3">Leaking or sagging gutters? Our team specializes in quick and effective repairs to keep your gutter system running smoothly</h1>
             <p className="text-black text-md">
             Bitdefender Mobile Security’s Web Protection filters traffic from all apps and blocks everything that poses a threat to your data. It also adds an encryption layer to prevent your data from being mishandled.<br/> <br/>
 
@@ -145,7 +142,7 @@ The included Bitdefender VPN offers an extra layer of privacy that secures all y
           </ul>
        </div>
           <div className="md:basis-1/2">
-          <img src="/defender.jpg" className="rounded-lg"/>
+          <img src="/dp.jpg" className="rounded-lg"/>
           </div>
          
 

@@ -32,6 +32,10 @@ body {
 }
 
 .hero {
-  background-image: url(../../public/hero.webp);
-  height: calc(100vh - 130px);
+  background-image: url(../../public/hero.png);
+  height: 100vh;
+ 
+}
+.h-hero{
+  height: calc(100vh - 170px);
 }

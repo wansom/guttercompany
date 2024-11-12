@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Bitdefender",
-  description: "Protect your devices",
+  title: "The Gutter Company",
+  description: "We Do Everything Gutters",
 };
 
 export default function RootLayout({ children }) {
