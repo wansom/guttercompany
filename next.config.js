@@ -2,8 +2,12 @@
 const nextConfig = {
   output: 'standalone',
   images: {
-    domains: ['your-image-domain.com'], // Add if you're using external images
+    domains: ['images.unsplash.com'], // Add any image domains you're using
   },
+  // Add this if you're using experimental features
+  experimental: {
+    appDir: true,
+  }
 }
 
 module.exports = nextConfig 
