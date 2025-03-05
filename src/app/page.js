@@ -35,8 +35,8 @@ export default function Home() {
             <button className="md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+</svg>
+</button>
           </div>
         </div>
       </nav>
@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="w-14 h-14 bg-[#4F46E5]/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-[#4F46E5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+</svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Competitive Pricing</h3>
                 <p className="text-gray-600">
@@ -216,7 +216,7 @@ export default function Home() {
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+</svg>
                 </a>
               </div>
             </div>
@@ -286,7 +286,7 @@ export default function Home() {
                 <div className="mt-4 flex items-center text-sm text-gray-500">
                   <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
+</svg>
                   Verified Customer
                 </div>
               </div>
@@ -411,7 +411,7 @@ export default function Home() {
                   <div className="w-12 h-12 bg-[#4F46E5]/10 rounded-xl flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-[#4F46E5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+</svg>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">How often should I clean my gutters?</h3>
@@ -459,7 +459,7 @@ export default function Home() {
                   <div className="w-12 h-12 bg-[#4F46E5]/10 rounded-xl flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-[#4F46E5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+</svg>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Do you offer emergency services?</h3>
@@ -621,10 +621,10 @@ export default function Home() {
                         Maintenance Programs
                       </a>
                     </li>
-                  </ul>
-                </div>
-              </div>
-
+          </ul>
+       </div>
+          </div>
+         
               {/* Contact Info */}
               <div className="space-y-6">
                 <div>
@@ -682,7 +682,7 @@ export default function Home() {
             </div>
           </div>
         </footer>
-
+        
       </main>
     </div>
   );
