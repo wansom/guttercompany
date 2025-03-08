@@ -48,7 +48,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
           <div className="container mx-auto px-5 lg:px-20 relative h-full flex items-center">
             <div className="max-w-3xl text-white">
-              <div className="inline-block bg-[#4F46E5] text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <div className="inline-block bg-[#4F46E5] text-white px-4 py-2 rounded-full text-sm font-medium my-8">
                 #1 Trusted Gutter Service in Minneapolis
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
